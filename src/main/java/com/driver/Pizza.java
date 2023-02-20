@@ -53,11 +53,11 @@ public class Pizza {
     public String getBill(){
         if(!isBillGenerated) {
             if (isCheeseAdded) {
-                this.bill += "Extra Cheese Added: 80" + "\n";
+                this.bill += "Extra Cheese Added:80" + "\n";
 
             }
             if (isToppingsAdded) {
-                this.bill += "Extra Toppings Added: " + this.toppings + "\n";
+                this.bill += "Extra Toppings Added:" + this.toppings + "\n";
             }
             if (isTakeWay) {
                 this.bill += "Paperbag Added:20" + "\n";
